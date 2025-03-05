@@ -10,6 +10,9 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 
+/**
+ * Undocumented class
+ */
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'UI';
