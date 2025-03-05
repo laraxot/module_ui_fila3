@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Providers;
 
 use Modules\Xot\Providers\XotBaseEventServiceProvider;
-use Illuminate\Foundation\Support\Providers\EventServiceProvider as BaseEventServiceProvider;
 
 class EventServiceProvider extends XotBaseEventServiceProvider
 {
