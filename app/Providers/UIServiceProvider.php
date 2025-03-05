@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Providers;
 
-use function Safe\realpath;
-use Webmozart\Assert\Assert;
-use Modules\UI\Services\UIService;
-use Illuminate\Support\Facades\Blade;
-
 use Illuminate\Foundation\AliasLoader;
+use Illuminate\Support\Facades\Blade;
+use Modules\UI\Services\UIService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+
+use function Safe\realpath;
+
+use Webmozart\Assert\Assert;
 
 /**
  * ---.
