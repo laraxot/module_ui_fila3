@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\UI\Providers;
 
+use Modules\Xot\Providers\XotBaseEventServiceProvider;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as BaseEventServiceProvider;
 
-class EventServiceProvider extends BaseEventServiceProvider
+class EventServiceProvider extends XotBaseEventServiceProvider
 {
+    public string $name = 'UI';
+
     /**
      * The event handler mappings for the application.
      *
