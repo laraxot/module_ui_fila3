@@ -17,7 +17,7 @@ class TableLayoutToggleTableAction extends Action
         $current = $this->getCurrentLayout();
         $this
             ->name('tableLayoutToggle')
-            ->label('') // Nessuna label, solo tooltip
+             // Nessuna label, solo tooltip
             ->tooltip($current->getLabel())
             ->color($current->getColor()) // Colore basato sulla sessione
             ->icon($current->getIcon()) // Usa l'icona basata sulla sessione
